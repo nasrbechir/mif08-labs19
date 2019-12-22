@@ -4,7 +4,7 @@ Public files for LYON1-FST M1 students (MIF08 course)
 ![lyon1logo](logo_lyon1_tiny.png)
 
 
-[Official Website for MIF08 (where to find labs subjects)](http://laure.gonnord.org/pro/teaching/compilM1.html)
+[Official Website for MIF08 (where to find labs subjects)](https://compil-lyon.gitlabpages.inria.fr/compil-lyon/)
 
 [La page de l'avancée du cours (fr)](./AVANCEE.md)
 
