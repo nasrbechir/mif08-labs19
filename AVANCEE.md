@@ -7,7 +7,7 @@ _version intensive, janvier 2020_
 
 ## Première semaine
 
-  - Mercredi 8/01/2019
+  - Mercredi 8/01/2020
      - :book: Cours, 16h00 -> 17h30:
        [cours1](https://compil-lyon.gitlabpages.inria.fr/compil-lyon/MIF081920_Lyon1/mif08_all_slides4p.pdf)
        Introduction, Target Machine (LG)
