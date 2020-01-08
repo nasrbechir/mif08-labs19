@@ -15,6 +15,7 @@
 ## RISC-V C and C++ cross-compiler
 
 	sudo apt-get install autoconf automake autotools-dev curl libmpc-dev libmpfr-dev libgmp-dev gawk build-essential bison flex texinfo gperf libtool patchutils bc zlib1g-dev libexpat-dev
+	## [Mac OS X] See instructions at https://github.com/riscv/riscv-gnu-toolchain#prerequisites
 
 	cd "$RISCV_BUILD"
 	git clone --recursive https://github.com/riscv/riscv-gnu-toolchain
@@ -39,6 +40,7 @@ Must output:
 
 	sudo apt-get install autoconf automake autotools-dev curl libmpc-dev libmpfr-dev libgmp-dev libusb-1.0-0-dev gawk build-essential bison flex texinfo gperf libtool patchutils bc zlib1g-dev device-tree-compiler pkg-config libexpat-dev
 
+	## [Mac OS X] See instructions at https://github.com/riscv/riscv-tools#quickstart
 	cd "$RISCV_BUILD"
 	git clone --recursive https://github.com/riscv/riscv-tools.git
 	cd riscv-tools/
