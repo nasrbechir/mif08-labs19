@@ -17,7 +17,7 @@ _version intensive, janvier 2020_
        [cours2](https://compil-lyon.gitlabpages.inria.fr/compil-lyon/MIF081920_Lyon1/mif08_all_slides4p.pdf)
        Lexing, Parsing (LG)
 	 - :pencil2: TD, 10h00 -> 11h30 ou 14-15h30 [TD1
-       archi/lex](https://compil-lyon.gitlabpages.inria.fr/compil-lyon/MIF081920_Lyon1/cahier_exos_MIF08.pdf)
+       archi/lex](https://compil-lyon.gitlabpages.inria.fr/compil-lyon/MIF081920_Lyon1/mif08_td1.pdf)
        Target Machine + Lex demo. [Fichiers
        demo](https://compil-lyon.gitlabpages.inria.fr/compil-lyon/MIF081920_Lyon1/ANTLR-demolex.tgz)(LG,
        GB, MM, NL)
