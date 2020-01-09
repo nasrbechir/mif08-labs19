@@ -15,6 +15,7 @@
 ## RISC-V C and C++ cross-compiler
 
 	sudo apt-get install autoconf automake autotools-dev curl libmpc-dev libmpfr-dev libgmp-dev gawk build-essential bison flex texinfo gperf libtool patchutils bc zlib1g-dev libexpat-dev
+	## [Mac OS X] See instructions at https://github.com/riscv/riscv-gnu-toolchain#prerequisites
 
 	cd "$RISCV_BUILD"
 	git clone --recursive https://github.com/riscv/riscv-gnu-toolchain
@@ -22,7 +23,7 @@
 	./configure --prefix="$RISCV"
 	make -j 4
 	##[Mac OS X] only do instead of make -j 4:
-	make 
+	make
 
 Quick check:
 
@@ -39,6 +40,7 @@ Must output:
 
 	sudo apt-get install autoconf automake autotools-dev curl libmpc-dev libmpfr-dev libgmp-dev libusb-1.0-0-dev gawk build-essential bison flex texinfo gperf libtool patchutils bc zlib1g-dev device-tree-compiler pkg-config libexpat-dev
 
+	## [Mac OS X] See instructions at https://github.com/riscv/riscv-tools#quickstart
 	cd "$RISCV_BUILD"
 	git clone --recursive https://github.com/riscv/riscv-tools.git
 	cd riscv-tools/
@@ -87,7 +89,7 @@ exit the docker. A typical use is to run your text editor on the host
 machine, and run compilation & tests within Docker.
 
 
-# Achlinux installation 
+# Achlinux installation
 If not done already, you can enable compilation on all your CPU cores for Makepkg, in /etc/makepkg.conf change MAKEFLAGS :
 
 	MAKEFLAGS="-j$(nproc)" #You can set "-jxx" with xx the desired number of threads you want
@@ -96,7 +98,7 @@ If not done already, you can enable compilation on all your CPU cores for Makepk
 	COMPRESSXZ=(xz -c -z - --threads=0)
 	COMPRESSZST=(zstd -c -z -q - --threads=0)
 
-For more infos visit :https://wiki.archlinux.org/index.php/Makepkg#Parallel_compilation
+For more infos visit: https://wiki.archlinux.org/index.php/Makepkg#Parallel_compilation
 
 Now you can install from AUR __riscv64-unknown-elf-gcc__ and __riscv64-unknown-elf-newlib__ for the c standard lib.
 
@@ -104,25 +106,8 @@ To install spike :
 
 	pacman -S spike
 Then you will need _pk_ from AUR __riscv-pk__
+you will have do modify the PKGBUILD by replacing __riscv64-linux-gnu__ by __riscv64-unknown-elf__ lines 20 and 23
 
-To run spike you need to specify the path of pk and run :
+you can choose to not modify the PKGBUILD and create a symlink
 
-	spike /usr/riscv64-linux-gnu/bin/pk program.riscv
-instead of :
-
-	spike pk program.risc
-
-You can create an alias in your bashrc and call
-
-	spike(){
-		args=()
-		for var in "$@"; do
-			if [[ $var == "pk" ]]; then #catch the pk parameter and replace it by its real path
-				args+=("/usr/riscv64-linux-gnu/bin/pk")
-			else
-				args+=($var)
-			fi
-		done
-		/bin/spike $args
-		#for a less intrusive script, name the function spike2 and call spike $args at the end
-	}
+	 ln -s /usr/riscv64-linux-gnu/bin/pk /usr/riscv64-unknown-elf/bin/pk
