@@ -29,7 +29,7 @@ _version intensive, janvier 2020_
 
   - Lundi 13/01
     - :book: Cours, 8h00 -> 9h30:  [cours3](https://compil-lyon.gitlabpages.inria.fr/compil-lyon/MIF081920_Lyon1/mif08_all_slides4p.pdf) (LG)
-	- :mag_right: Contrôle continu (papier), 9h30 -> 9h45 archi (seul document
+	- :mag_right: Contrôle continu (papier), 9h30 -> 9h45 archi (aucun doc
       autorisé: ISA de la machine) (LG)
     - :hammer: TP, 14h00 -> 16h00: [TP2 antlr](https://compil-lyon.gitlabpages.inria.fr/compil-lyon/MIF081920_Lyon1/mif08_tp2.pdf) (tous)
   
@@ -38,9 +38,9 @@ _version intensive, janvier 2020_
       [cours4](https://compil-lyon.gitlabpages.inria.fr/compil-lyon/MIF081920_Lyon1/mif08_all_slides4p.pdf)
       (LG) génération de code 3 adresse, CFG.
     - :pencil2: TD, 10h00 -> 11h30 ou 14h-15h30: [TD2
-      grammaires](https://compil-lyon.gitlabpages.inria.fr/compil-lyon/MIF081920_Lyon1/cahier_exos_MIF08.pdf)
+      grammaires](https://compil-lyon.gitlabpages.inria.fr/compil-lyon/MIF081920_Lyon1/mif08_td2.pdf)
       (LG, GB, MM, NL) 
-	- :hammer: TP libre après 16h
+	- :hammer: TP libre après 16h (salles TD2, 5, 6, 10, 11 pour travailler au Nautibus)
 	
   - Mercredi 15/01
 	- :mag_right: Contrôle continu (tp), 14h00 -> 14h30 (20 min de composition) une grammaire
