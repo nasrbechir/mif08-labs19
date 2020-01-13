@@ -1,6 +1,6 @@
-# Installs :
+# Instalation from source (should work everywhere, but long and needs ~15Gb of disk)
 
-# Decide where to build and install, create directory
+## Decide where to build and install, create directory
 
 	# Also add the following two lines to ~/.bashrc
 	export RISCV=/opt/riscv 	# Adapt as needed
@@ -78,7 +78,7 @@ RISC-V tools, LaTeX and Python is given here:
 To launch it with the current directory mounted, run:
 
 ```
-sudo docker run --rm -ti -v $PWD:/home/compil --user $(id -u):$(id -g) -w /home/compil mmoy/riscv-latex-python
+sudo docker run --rm -ti -v $PWD:/home/compil --user $(id -u):$(id -g) -w /home/compil mmoy/riscv-latex-python:dev
 ```
 
 The current directory on your host machine is mounted in /home/compil,
