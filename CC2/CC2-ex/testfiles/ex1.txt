@@ -1,0 +1,6 @@
+abbb
+//EXPECTED
+//EXITCODE 2
+//syntax error
+
+
