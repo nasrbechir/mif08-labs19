@@ -1,5 +1,5 @@
-MAINFILE = sujetEx
-PACKAGE = AnB2n
+MAINFILE = sujetA
+PACKAGE = SujetA
 MYNAME = JohnDoe
 
 ifndef ANTLR4
@@ -15,6 +15,8 @@ main-deps: $(PACKAGE)Lexer.py $(PACKAGE)Parser.py
 
 run: $(MAINFILE).py main-deps
 	python3 $< --verbose
+
+TESTFILE=testfiles/ex0.txt
 
 tests: test_grammar.py main-deps
 	python3 -m pytest -v $< 
