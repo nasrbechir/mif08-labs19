@@ -23,7 +23,7 @@ tests: test_grammar.py main-deps
 
 
 tar: clean
-	cd ..; tar cvfz $(MYNAME)-CC2.tgz CC2-ex/ --transform 's/CC2-ex/$(MYNAME)-CC2/'
+	cd ..; tar cvfz $(MYNAME)-CC2.tgz CC2-TPB/ --transform 's/CC2-TPB/$(MYNAME)-CC2/'
 
 
 clean:
