@@ -36,7 +36,7 @@ _version intensive, janvier 2020_
   - Mardi 14/01
 	- :book: Cours, 8h00 -> 9h30:
       [cours4](https://compil-lyon.gitlabpages.inria.fr/compil-lyon/MIF081920_Lyon1/mif08_all_slides4p.pdf)
-      (LG) génération de code 3 adresse, CFG.
+      (LG) génération de code 3 adresses + allocation allinmem.
     - :pencil2: TD, 10h00 -> 11h30 ou 14h-15h30: [TD2
       grammaires](https://compil-lyon.gitlabpages.inria.fr/compil-lyon/MIF081920_Lyon1/mif08_td2.pdf)
       (LG, GB, MM, NL) 
@@ -45,7 +45,7 @@ _version intensive, janvier 2020_
   - Mercredi 15/01
 	- :mag_right: Contrôle continu (tp), 14h00 -> 14h30 (20 min de composition) une grammaire
       ANTLR (tous)
-    - :hammer: TP, 14h45 -> 17h00: [TP3 frontend, évaluateur](https://compil-lyon.gitlabpages.inria.fr/compil-lyon/MIF081920_Lyon1/mif08_tp3.pdf) (tous)
+    - :hammer: TP, 14h45 -> 18h00: [TP3 frontend, évaluateur](https://compil-lyon.gitlabpages.inria.fr/compil-lyon/MIF081920_Lyon1/mif08_tp3.pdf) (tous)
 
   - Jeudi 16/01
   	- :book: Cours, 8h00 -> 10h00:  [cours5](https://compil-lyon.gitlabpages.inria.fr/compil-lyon/MIF081920_Lyon1/mif08_all_slides4p.pdf) (LG)
@@ -67,7 +67,7 @@ _version intensive, janvier 2020_
 	- :hammer: TP libre après 16h
 	
   - Mardi 21/01
-	- :pencil2: TD groupe A 8-9h30 , autres 10h00 -> 11h30: [TD5
+	- :pencil2: TD groupe A 8-9h30, autres 10h00 -> 11h30: [TD5
       regalloc](https://compil-lyon.gitlabpages.inria.fr/compil-lyon/MIF081920_Lyon1/cahier_exos_MIF08.pdf)
       (LG, GB, MM, NL) 
 	- :hammer: TP, 14h00 -> 16h00:  [TP4/5 code gen](https://compil-lyon.gitlabpages.inria.fr/compil-lyon/MIF081920_Lyon1/mif08_tp5.pdf) (tous)
@@ -80,12 +80,12 @@ _version intensive, janvier 2020_
 	- Libre pour TP/Révisions
 
   - Vendredi 24/11
-	- :mag_right: Examen final 8h00 -> 10h00 (2h). 
+	- :mag_right: Examen final 8h00 -> 10h GRAND AMPHI DE CPE!
 
 
 ### Rendus Tomuss et feedback
 
-  - CC de cours : la note arrivera le mardi 14/01 soir.
+  - CC de cours : la note arrivera fin de la semaine.
   
   - CC de tp noté : rendu mercredi 15/01 à 14h30. La correction
     arrivera avant la fin de la semaine.
@@ -94,7 +94,7 @@ _version intensive, janvier 2020_
     note "automatique" vous dera rendue durant le week-end.
 
   - Tps de génération de code directe: rendu le mardi 21/01 à 18h - une
-    correction sera fournie à la même heure. 
+    correction partielle sera fournie à la même heure. 
 	
   - Dernier TP : rendu le dimanche 26 à 23h59.
   
