@@ -1,5 +1,5 @@
-MAINFILE = sujetEx
-PACKAGE = AnB2n
+MAINFILE = sujetA
+PACKAGE = SujetA
 MYNAME = JohnDoe
 
 ifndef ANTLR4
@@ -16,12 +16,14 @@ main-deps: $(PACKAGE)Lexer.py $(PACKAGE)Parser.py
 run: $(MAINFILE).py main-deps
 	python3 $< --verbose
 
+TESTFILE=testfiles/ex0.txt
+
 tests: test_grammar.py main-deps
 	python3 -m pytest -v $< 
 
 
 tar: clean
-	cd ..; tar cvfz $(MYNAME)-CC2.tgz CC2-ex/ --transform 's/CC2-ex/$(MYNAME)-CC2/'
+	cd ..; tar cvfz $(MYNAME)-CC2.tgz CC2-TPA/ --transform 's/CC2-TPA/$(MYNAME)-CC2/'
 
 
 clean:
